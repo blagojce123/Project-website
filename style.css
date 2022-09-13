@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.head-img img {
+    height: 100%;
+    object-fit: cover;
+}
+
+img {
+    width: 100%;
+}
+
+.head-img {
+    height: 200px;
+}
+.bottom-img {
+    height: 200px;
+}
+.bottom-img img {
+    height: 100%;
+    object-fit: cover;
+}
+
+h1 {
+    background-color: #f58ea0;
+    color: #dad8d8;
+    text-align: center;
+    font-family: 'Monoton', cursive;
+    padding: 16px;
+    font-size: 4rem;
+    display: block;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 0 #1ed7f0, 2px -2px 0 #1ed7f0, -2px 2px 0 #4074b5,
+        -2px -2px 0 #1ed7f0, 2px 0px 0 #1ed7f0, 0px 2px 0 #1ed7f0,
+        -2px 0px 0 #1ed7f0, 0px -2px 0 #1ed7f0;
+}
+main {
+    background-color: #d6d3d3;
+    font-family: 'quicksand', sans-serif;
+    display: block;
+    padding: 32px;
+}
+body {
+    background-color: #d6d3d3;
+}
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    padding: 1rem;
+}
+h2::after {
+    font-family: 'Font Awesome 5 Free';
+    content: '\f564';
+}
+
+.first {
+    width: 80%;
+    background-color: #eeeeee;
+    border-radius: 10px;
+    border: 3px solid white;
+    margin: auto;
+}
+
+.first h2 {
+    color: #f112f1;
+    background-color: #dad8d8;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 16px;
+}
+
+.first p {
+    margin: 16px;
+}
+
+a img {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+}
+
+.lollipop {
+    border: 3px solid yellow;
+    margin: 16px;
+    float: left;
+}
+.candy {
+    border: 3px solid #1ed7f0;
+    margin: 16px;
+    float: right;
+}
+.bean {
+    border: 3px solid #ff69b4;
+    margin: 16px;
+    float: left;
+}
+h3 {
+    text-align: center;
+}
+ul {
+    background-color: #f58ea0;
+    margin: 16px;
+    padding: 5px;
+    display: block;
+}
+a {
+    text-decoration: none;
+    display: block;
+}
+li {
+    list-style-type: none;
+    padding: 3px;
+    text-align: center;
+}
+.FPG:hover {
+    background-color: yellow;
+}
+ul a:hover {
+    background-color: #f58ea0;
+    padding: 5px;
+}
+.link a {
+    text-align: center;
+    padding: 16px;
+    color: #551a8b;
+    font-weight: bold;
+}
+.contact {
+    background-color: #1ed7f0;
+}
+.contact li:hover {
+    background-color: pink;
+    padding: 0;
+}
+.contact li {
+    text-align: left;
+    font-family: 'quicksand';
+    font-weight: bold;
+}
+
+.mainpage {
+    margin-left: 20px;
+}
+
+.mainpage a {
+    color: #0000ee;
+    font-weight: bold;
+    font-family: 'quicksand';
+}
+
+/* .mainpage::before{font-family:'Font Awesome 5 Free';
+    content: '\f177';} */
+
+    .contacth2::after{content: '';}
